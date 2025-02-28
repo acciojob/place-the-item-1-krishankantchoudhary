@@ -1,15 +1,61 @@
-
-/* Your CSS Code here. */
 .holder{
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	width:50vw;
-	height:50vw;	
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
 }
 
- .item-1{
-	width: 100px;
-    height: 100px;
-    background-color: red;
+
+.redbox{
+	height:100px;
+	width:100px;
+	background-color:red;
+	order:2;
+	font-size:40px;
+}
+
+.bluebox{
+	height:100px;
+	width:100px;
+	background-color:blue;
+	order:3;
+	font-size:40px;
+}
+
+.greenbox{
+	height:100px;
+	width:100px;
+	background-color:green;
+	order:1;
+	font-size:40px;
+}
+
+.item{
+	display:flex;
+	justify-content:space-evenly;
+	padding:10px;
+	flex-wrap:wrap;
+}
+
+.greenbox1{
+	height:100px;
+	width:100px;
+	background-color:green;
+	order:1;
+	font-size:40px;
+}
+
+.redbox1{
+	height:100px;
+	width:100px;
+	background-color:red;
+	font-size:40px;
+	order:6;
+}
+
+.bluebox1{
+	height:100px;
+	width:100px;
+	background-color:blue;
+	order:7;
+	font-size:40px;
 }
